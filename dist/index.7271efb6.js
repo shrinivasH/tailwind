@@ -2960,7 +2960,8 @@ var _clientDefault = parcelHelpers.interopDefault(_client);
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            children: "This is H1"
+            className: "text-3xl font-bold underline",
+            children: "Hello tailwindcss"
         }, void 0, false, {
             fileName: "src/App.js",
             lineNumber: 5,
@@ -2976,7 +2977,7 @@ _c = App;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/App.js",
-    lineNumber: 9,
+    lineNumber: 11,
     columnNumber: 13
 }, undefined));
 var _c;
